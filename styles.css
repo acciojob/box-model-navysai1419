@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+ .container {
+            width: 300px; /* Set the desired width for the container */
+            padding: 20px; /* Add padding to create some space around the blocks */
+            border: 2px solid #000; /* Add a border to the container */
+            text-align: center; 
+	         background-color:lightgray;
+	          border-radiu:0px;
+	 display:flex;
+	 /* Center-align the content inside the container */
+        }
+
+        /* Apply styles to the colored blocks */
+        .red, .green, .yellow {
+            width: 100px; /* Set the width of the blocks */
+            height: 100px; /* Set the height to make them squares (circles with border-radius) */
+            border-radius: 50%; /* Make them circular using border-radius */
+            display: inline-block; /* Display the blocks inline to place them side by side */
+            margin: 10px; /* Add margin to separate the blocks */
+        }
+
+        .red {
+            background-color: red; /* Set the red color for the red block */
+        }
+
+        .green {
+            background-color: green; /* Set the green color for the green block */
+        }
+
+        .yellow {
+            background-color: yellow; /* Set the yellow color for the yellow block */
+        }
